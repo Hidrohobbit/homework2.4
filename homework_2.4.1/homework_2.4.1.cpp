@@ -98,13 +98,15 @@ int main()
         }
 
         fin.close();
+
+        delete [] location_array;
     }
     else
     {
         std::cout << "Не удалось открыть файл!";
     }
 
-
+    
 
     return 0;
 }
